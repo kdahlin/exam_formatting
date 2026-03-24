@@ -48,3 +48,6 @@ for (i in 2:length(files)) {
 }
 
 write.csv("./quizzes/quizzes_combined.csv")
+
+# NOW CLEAN UP BY HAND IN EXCEL TO CHECK STUFF
+
