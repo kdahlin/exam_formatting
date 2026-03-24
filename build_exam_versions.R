@@ -5,8 +5,8 @@ library(tidyr)
 
 set.seed(123)
 
-setwd("C:/Users/Kyla Dahlin/Dropbox/MSU_GEO201/2026/exam_1/")
-exam <- read_excel("Exam_Template.xlsx", sheet = "ExamBuild")
+setwd("C:/Users/Kyla Dahlin/Dropbox/MSU_GEO201/2026/exam_2/")
+exam <- read_excel("quizzes_combined.xlsx", sheet = "ExamBuild")
 
 shuffle_answers <- function(row) {
   
